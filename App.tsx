@@ -46,7 +46,7 @@ const App: React.FC = () => {
                 ¿Estás realmente protegido para los próximos 20 años?
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-                El 70% de los profesionales mayores de 55 años tienen brechas en su cobertura que podrían afectar su autonomía. Descubre tu "Índice de Autonomía" en 3 minutos.
+                El 70% de las personas mayores de 60 años tienen brechas en su cobertura que podrían afectar su autonomía. Descubre tu "Índice de Autonomía" en 3 minutos.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-left max-w-4xl mx-auto">

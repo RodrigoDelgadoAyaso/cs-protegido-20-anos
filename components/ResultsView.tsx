@@ -149,15 +149,15 @@ export const ResultsView: React.FC<ResultsViewProps> = ({ answers, user }) => {
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3">
                 <ShieldCheck className="text-nn-orange w-5 h-5" />
-                <span>Solución integral Salud + Accidentes desde 42€/mes.</span>
+                <span>Salud privada (Sanitas) + Accidentes desde 42€/mes.</span>
               </li>
               <li className="flex items-center gap-3">
                 <ShieldCheck className="text-nn-orange w-5 h-5" />
-                <span>Sin cuestionarios médicos complicados.</span>
+                <span>Sin cuestionario médico. Contratación inmediata.</span>
               </li>
               <li className="flex items-center gap-3">
                 <ShieldCheck className="text-nn-orange w-5 h-5" />
-                <span>Actualización automática para protegerte de la inflación.</span>
+                <span>Hasta 200h/año de asistencia domiciliaria por accidente.</span>
               </li>
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -183,8 +183,8 @@ export const ResultsView: React.FC<ResultsViewProps> = ({ answers, user }) => {
                  <span className="font-mono text-red-300">{100 - totalScore}%</span>
                </div>
                <div className="flex justify-between border-b border-white/20 pb-2">
-                 <span>Coste Potencial Dependencia</span>
-                 <span className="font-mono">~1.500€/mes</span>
+                 <span>Coste recuperación accidente</span>
+                 <span className="font-mono">~1.200€/mes</span>
                </div>
                <div className="pt-2">
                  <div className="text-sm text-gray-400 mb-1">Precio Contigo Senior</div>

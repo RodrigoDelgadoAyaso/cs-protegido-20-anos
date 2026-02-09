@@ -56,7 +56,7 @@ export const Quiz: React.FC<QuizProps> = ({ onComplete }) => {
         <div className="mb-6 flex items-center gap-3 text-nn-teal">
           <Icon className="w-6 h-6" />
           <span className="font-semibold text-sm uppercase tracking-wide">
-            {currentQuestion.category === 'finance' ? 'Solidez Financiera' : 
+            {currentQuestion.category === 'finance' ? 'Capacidad ante Imprevistos' :
              currentQuestion.category === 'health' ? 'Salud y Movilidad' :
              currentQuestion.category === 'home' ? 'Seguridad en el Hogar' :
              currentQuestion.category === 'support' ? 'Red de Apoyo' : 'Cobertura'}

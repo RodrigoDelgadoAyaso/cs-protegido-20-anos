@@ -3,7 +3,7 @@ import { Shield, Heart, Home, Users, Wallet, Activity } from 'lucide-react';
 
 export const CATEGORY_LABELS: Record<string, string> = {
   health: 'Salud y Movilidad',
-  finance: 'Solidez Financiera',
+  finance: 'Capacidad ante Imprevistos',
   home: 'Seguridad Hogar',
   support: 'Red de Apoyo',
   coverage: 'Cobertura Actual',
@@ -33,12 +33,12 @@ export const QUESTIONS: Question[] = [
   {
     id: 2,
     category: 'health',
-    question: "¿Cuál es tu mayor preocupación respecto a tu salud física?",
+    question: "¿Cuál crees que será tu mayor preocupación respecto a tu salud física dentro de 10 años?",
     options: [
-      { id: 'h2_1', text: "Mantener mi ritmo de vida activo y viajes.", score: 10 },
-      { id: 'h2_2', text: "Las listas de espera para especialistas o pruebas.", score: 6 },
-      { id: 'h2_3', text: "Sufrir un accidente que me quite la independencia.", score: 4 },
-      { id: 'h2_4', text: "Necesitar cuidados diarios de terceros.", score: 2 },
+      { id: 'h2_1', text: "Seguir manteniendo mi ritmo de vida activo.", score: 10 },
+      { id: 'h2_2', text: "Poder acceder a un especialista rápido si lo necesito.", score: 6 },
+      { id: 'h2_3', text: "Sufrir un accidente que limite mi independencia.", score: 4 },
+      { id: 'h2_4', text: "Necesitar asistencia diaria para las tareas básicas.", score: 2 },
     ]
   },
   {
@@ -68,23 +68,23 @@ export const QUESTIONS: Question[] = [
   {
     id: 5,
     category: 'finance',
-    question: "¿Qué importancia tiene para ti proteger tu patrimonio para herencia?",
+    question: "Si un accidente te obligara a estar en casa varias semanas, ¿cómo afrontarías los gastos extra (fisio, ayuda doméstica...)?",
     options: [
-      { id: 'f2_1', text: "Crucial, no quiero gastar mis activos en cuidados médicos.", score: 4 }, // High risk perception
-      { id: 'f2_2', text: "Importante, pero mi salud es prioridad.", score: 7 },
-      { id: 'f2_3', text: "Tengo seguros específicos para evitar tocar ahorros.", score: 10 },
-      { id: 'f2_4', text: "No es una prioridad ahora mismo.", score: 5 },
+      { id: 'f2_1', text: "Mis ahorros lo cubrirían sin problema.", score: 10 },
+      { id: 'f2_2', text: "Podría pagarlo, pero reduciría mi colchón financiero.", score: 6 },
+      { id: 'f2_3', text: "Tendría que pedir ayuda a la familia.", score: 3 },
+      { id: 'f2_4', text: "No lo he pensado, confío en la Seguridad Social.", score: 2 },
     ]
   },
   {
     id: 6,
     category: 'finance',
-    question: "¿Te preocupa el impacto de la inflación en tus costes médicos futuros?",
+    question: "¿Cuánto tiempo podrías mantener tu nivel de vida actual si dejaras de recibir ingresos por un problema de salud?",
     options: [
-      { id: 'f3_1', text: "Sí, mucho. Quiero garantías de actualización.", score: 5 },
-      { id: 'f3_2', text: "Algo, pero asumo que podré pagarlo.", score: 7 },
-      { id: 'f3_3', text: "No, tengo ingresos garantizados altos.", score: 9 },
-      { id: 'f3_4', text: "Ya tengo un seguro que se actualiza automáticamente.", score: 10 },
+      { id: 'f3_1', text: "Más de 2 años sin problema, tengo buen colchón.", score: 10 },
+      { id: 'f3_2', text: "Alrededor de un año, después tendría que ajustar gastos.", score: 7 },
+      { id: 'f3_3', text: "Unos pocos meses, dependo de mis ingresos mensuales.", score: 4 },
+      { id: 'f3_4', text: "Muy poco, vivo prácticamente al día.", score: 1 },
     ]
   },
 
